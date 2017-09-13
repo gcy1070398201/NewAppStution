@@ -6,6 +6,7 @@ import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.LinearLayout;
 
 import com.gcy.library.status.StatusUtils;
 import com.gcy.library.status.StatusView;
@@ -24,8 +25,8 @@ public class TextAC1 extends AppCompatActivity {
     NestedScrollView nslView;
     @BindView(R.id.header)
     View header;
-//    @BindView(R.id.ly_title)
-//    LinearLayout ly_title;
+    @BindView(R.id.ly_title)
+    LinearLayout ly_title;
     @BindView(R.id.AppTitle)
     AppTitleView mAppTitleView;
     @Override
@@ -56,6 +57,6 @@ public class TextAC1 extends AppCompatActivity {
     }
     private void setAnyBarAlpha(int alpha) {
         statusView.getBackground().mutate().setAlpha(alpha);
-//        ly_title.getBackground().mutate().setAlpha(alpha);
+        ly_title.getBackground().mutate().setAlpha(alpha);
     }
 }
