@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/hw_50_dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/hw_50_dp">
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="SSS"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="15dp"
+            android:textSize="14sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="@dimen/hw_50_dp">
+        <ImageView
+            android:id="@+id/remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+        <EditText
+            android:id="@+id/edNum"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:imeOptions="flagNoExtractUi"/>
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+    </LinearLayout>
+
+</LinearLayout>
