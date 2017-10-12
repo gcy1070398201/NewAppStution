@@ -1,1 +1,1 @@
-include ':app', ':applibrary', ':commonadapter'
+include ':app', ':applibrary', ':commonadapter', ':UdeskSDKUI'

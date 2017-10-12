@@ -19,10 +19,31 @@
         android:gravity="center"
         android:text="go_ShopCar" />
     <TextView
-        android:id="@+id/go_Update"
+        android:id="@+id/go_UpdateAc"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:textColor="@color/colorAccent"
         android:gravity="center"
-        android:text="go_Update" />
+        android:text="go_UpdateAc" />
+    <TextView
+        android:id="@+id/openCustomerService"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:text="openCustomerService" />
+    <TextView
+        android:id="@+id/seedShopInfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:text="SeedShopInfo" />
+    <TextView
+        android:id="@+id/seedShopTEXT"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:text="SeedShopTEXT" />
 </LinearLayout>
