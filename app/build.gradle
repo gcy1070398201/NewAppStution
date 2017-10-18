@@ -41,7 +41,6 @@ dependencies {
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22'
     compile project(':commonadapter')
     compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.3'
-
      //客服
     compile project(':UdeskSDKUI')
     compile files('libs/jpush-android-2.2.0.jar')

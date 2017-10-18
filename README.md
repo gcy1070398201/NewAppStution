@@ -7,4 +7,5 @@
   附带原文链接 http://p.codekk.com/detail/Android/qyxxjd/CommonAdapter。
 5.增加Udesk sdk 客服功能。
 6.SmartRefreshLayout 增加上拉和下拉刷新控件
-7.有问题请咨询QQ：1070398201
+7.新增获取两个开源jar metadata-extractor xmpcore-5.1.2  图片详细信息
+8.有问题请咨询QQ：1070398201
